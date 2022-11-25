@@ -27,4 +27,4 @@ jobs:
     - name: Unit Test
       run: dotnet test ./DemoCiCd.UnitTests/DemoCiCd.UnitTests.csproj  --no-build --verbosity normal
     - name: Integration Test
-      run: dotnet test ./DemoCiCd.IntegrationTests/DemoCiCd.IntegrationTests  --no-build --verbosity normal
+      run: dotnet test ./DemoCiCd.IntegrationTests/DemoCiCd.IntegrationTests.csproj  --no-build --verbosity normal
