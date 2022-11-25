@@ -6,6 +6,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // Before
 var app = builder.Build();
+// After
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
